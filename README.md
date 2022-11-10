@@ -4,4 +4,4 @@
 - My own country's interest calculating formula was used in this project.
 
 ---
-![test image size]<img src="img/Animation.gif">
+<img src="img/Animation.gif" alt="SS_animation">
