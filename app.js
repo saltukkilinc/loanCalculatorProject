@@ -13,8 +13,8 @@ function calculateFunction(e) {
   const interestPaymentDOM = document.getElementById('interestPayment');
 
   const principal = amountDOM.value;
-  //  ( KKDF 15 % + BSMV 10 % = 25 % tax added == 1.25)
-  const interest = (parseFloat(interestDOM.value) / 100) * 1.25 ; 
+  //  ( KKDF 15 % + BSMV 15 % = 25 % tax added == 1.30)
+  const interest = (parseFloat(interestDOM.value) / 100) * 1.30 ; 
   const month = monthDOM.value;
 
   const x = Math.pow((1+interest), month);
